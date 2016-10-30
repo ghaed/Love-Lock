@@ -262,6 +262,7 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = K29A69S62H;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 					4EAD6C281D4D208100340C43 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -609,16 +610,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Mohammad Hassan Ghaed (J737YC3S7M)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mohammad Hassan Ghaed (J737YC3S7M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FinalProj",
 				);
 				INFOPLIST_FILE = FinalProj/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bibakindustries.LoveLock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bibakindustries.FinalProj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8d3c1961-52e3-4235-9c8f-1e45e6382d3f";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "FinalProj/FinalProj-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 2.3;
@@ -633,16 +636,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Mohammad Hassan Ghaed (J737YC3S7M)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mohammad Hassan Ghaed (J737YC3S7M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FinalProj",
 				);
 				INFOPLIST_FILE = FinalProj/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bibakindustries.LoveLock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bibakindustries.FinalProj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8d3c1961-52e3-4235-9c8f-1e45e6382d3f";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "FinalProj/FinalProj-Bridging-Header.h";
 				SWIFT_VERSION = 2.3;
 			};

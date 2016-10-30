@@ -238,52 +238,20 @@ class MainVC: UIViewController, FBSDKLoginButtonDelegate, ModelChangeDelegate, U
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
         localGallery.delegate = self
         
         // REF: https://www.youtube.com/watch?v=MNfrBdyEvmY
         view.addSubview(loginButton)
         loginButton.center = view.center
-        loginButton.center.x = view.center.x*15/10
-        loginButton.center.y = view.center.y/4
+        loginButton.center.x = view.center.x*10/10
+        loginButton.center.y = view.center.y/3
         loginButton.delegate = self
         
         if let _ = FBSDKAccessToken.currentAccessToken() {
             //fetchProfile()
             //fetchPictures()
         }
-        
-        
-        // REF: http://stackoverflow.com/questions/28636622/how-to-load-image-in-swift-using-alamofire
-//        Alamofire.request(.GET, "https://robohash.org/123.png").response { (request, response, data, error) in
-//            self.scrapImage.image = UIImage(data: data!, scale:1)
-//        }
-        
-        
-        // REF: https://github.com/Alamofire/AlamofireImage
-//        let URLRequest = NSURLRequest(URL: NSURL(string: "https://robohash.org/123.png")!)
-//        downloader.downloadImage(URLRequest: URLRequest) { response in
-//            print("hello")
-//            if let image = response.result.value {
-//                print(image)
-//                self.scrapImage.image = image
-//            }
-//        }
-        
-//        let URLRequest = [NSURLRequest(URL: NSURL(string: "https://robohash.org/123.png")!), NSURLRequest(URL: NSURL(string: "https://robohash.org/122.png")!)]
-//        downloader.downloadImages(URLRequests: URLRequest) { response in
-//            print("hello")
-//            if let image = response.result.value {
-//                print(image)
-//                self.scrapImage.image = image
-//            }
-//        }
-
-
-        
-        
-        
-        
     }
-    
 }
 
